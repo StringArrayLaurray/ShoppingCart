@@ -1,0 +1,118 @@
+/* Generelle stilindstillinger */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+td button {
+    background-color: #f44336; /* Rød knap for "fjern" */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+td button:hover {
+    background-color: #d32f2f;
+}
+
+td[colspan="3"] {
+    font-weight: bold;
+}
+
+form {
+    display: inline-block;
+    margin: 0;
+}
+
+/* Stilindstillinger for inputformular */
+form p {
+    margin: 5px 0;
+}
+
+label {
+    display: inline-block;
+    width: 70px;
+}
+
+input[type="text"], input[type="number"] {
+    padding: 5px;
+    width: 200px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+p {
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* Knap til at tømme indkøbskurven */
+form button[type="submit"] {
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+    background-color: #e64a19;
+}
+
+
+
